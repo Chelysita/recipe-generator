@@ -1,6 +1,9 @@
 body {
-  background-image: url(food.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(food.jpg);
   font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -15,7 +18,7 @@ h1 {
   font-weight: 800;
   font-size: 30px;
   line-height: 1.5;
-  color: #272044;
+  color: white;
 }
 .form-container {
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
